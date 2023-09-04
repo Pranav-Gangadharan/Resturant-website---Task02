@@ -170,6 +170,10 @@ body {
 
 }
 
+.best-deals-img {
+    width: 650px;
+    height: 400px
+}
 
 .order-now-btn {
     border-radius: 8px;
@@ -233,11 +237,11 @@ body {
         flex-direction: column;
     }
 
-        .footer-height {
-            height: 700px;
-        }
+    .footer-height {
+        height: 700px;
+    }
 
-    .horizontal-line{
+    .horizontal-line {
         margin-left: 5em;
     }
 }
@@ -252,10 +256,32 @@ body {
         height: 1000px;
     }
 
-        .horizontal-line {
-            margin-left: 3em;
-            margin-bottom: 200px;
-        }
+    .horizontal-line {
+        margin-left: 3em;
+        margin-bottom: 200px;
+    }
+
+    .best-deals-img {
+        width: 300px;
+        height: 200px
+    }
+
+   .best-deals-btn {
+       width: 307px;
+       padding: 21px 35px;
+       color: #FFF;
+       text-align: center;
+       font-size: 18px;
+       font-weight: 900;
+       text-transform: uppercase;
+       border: none;
+       margin: 50px 25px;
+       border-radius: 8px;
+       background: linear-gradient(93deg, #FFB800 -47.72%, #FF8A00 136.81%);
+
+       /* Button shadow ! */
+       box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29), 0px 5px 8px 0px rgba(222, 151, 0, 0.24);
+   }
 
 }
 
